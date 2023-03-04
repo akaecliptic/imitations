@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'/>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'/>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+    <link rel="stylesheet" href="public/libs/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="public/index.css" />
+    <title>Imitation - Skott</title>
+</head>
+<body>
+    <header>
+        <div id="container-links">
+            <div class="container-media">
+                <a href='#'><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href='https://twitter.com/skottpeace'><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href='https://soundcloud.com/skottmusic'><i class="fa fa-soundcloud" aria-hidden="true"></i></a>
+                <a href='https://open.spotify.com/artist/6J3RPKUwZlKMzh3vWa9wPc'><i class="fa fa-spotify" aria-hidden="true"></i></a>
+                <a href='https://www.instagram.com/skottpeace/'><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href='https://www.youtube.com/SkottVEVO'><i class="fa fa-youtube" aria-hidden="true"></i></a>
+            </div>
+            <div class="container-info">
+                <a href='#'>newsletter</a>
+                <a href='#'>tour dates</a>
+            </div>
+        </div>
+        <img id="logo" src="public/assets/skott_logo.png" alt="Skott Logo"/>
+        <i id="menu-icon" class="fa fa-bars fa-2x" aria-hidden="true"></i>
+    </header>
+    <main>
+        <section id="container-surface">
+            <div id="surface"></div>
+            <div id="surface-transition"></div>
+            <video autoplay muted loop id="surface-loop">
+                <source src="public/assets/back_surface_loop.mp4" type="video/mp4">
+            </video>
+        </section>
+        <section id="container-underwater">
+            <div id="underwater-transition"></div>
+            <div id="underwater">
+                <img id="skott" class="skott" src='public/assets/pauline.png' alt='pauline (skott)'/>
+                
+                <img class="bubbles" src='public/assets/bubbles-1.png' alt='bubbles-1'/>
+                <img class="bubbles" src='public/assets/bubbles-2.png' alt='bubbles-2'/>
+                <img class="bubbles" src='public/assets/bubbles-3.png' alt='bubbles-3'/>
+
+                <img class="jellyfish front" src='public/assets/jellyfish-1.png' alt='jellyfish-1'/>
+                <img class="jellyfish front" src='public/assets/jellyfish-2.png' alt='jellyfish-2'/>
+                <img class="jellyfish back" src='public/assets/jellyfish-3.png' alt='jellyfish-3'/>
+                <img class="jellyfish front" src='public/assets/jellyfish-4.png' alt='jellyfish-4'/>
+                <img class="jellyfish back" src='public/assets/jellyfish-5.png' alt='jellyfish-5'/>
+                <img class="jellyfish back" src='public/assets/jellyfish-6.png' alt='jellyfish-6'/>
+                <img class="jellyfish back" src='public/assets/jellyfish-7.png' alt='jellyfish-7'/>
+            </div>
+            <div id="gradient-transition"></div>
+            <div id="underwater-bubbles">
+                <h3>MERMAID</h3>
+                <video autoplay muted loop id="underwater-loop">
+                    <source src="public/assets/back_bubbles.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div id="gradient-transition-black"></div>
+        </section>
+        <section id="container-youtube">
+            <iframe  
+                src="https://www.youtube.com/embed/j3fJAeNXloU" 
+                title="YouTube video player" 
+                allowfullscreen >
+            </iframe>
+        </section>
+    </main>
+    <footer>
+        <a href='#'>share on twitter</a>
+        <a href='#'>share on facebook</a>
+    </footer>
+    <script src="public/index.js"></script>
+</body>
+</html>
